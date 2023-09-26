@@ -22,7 +22,7 @@ Shows the current path or directory (Linux-based systems mount in a specific dir
 - options:
     - **-l** : Shows more detailed information than file names and extensions (long format)
     - **-lh** : Same as above, but size in units
-    - *Differences from -l: If you give the -l option, a really large number will be taken for large files. The format that converts it into a more human-readable form such as kb, mb, gb, etc. that we are more familiar with is -lh*
+    - *Differences from -l : If you give the -l option, a really large number will be taken for large files. The format that converts it into a more human-readable form such as kb, mb, gb, etc. that we are more familiar with is -lh*
 
 ---
 
