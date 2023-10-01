@@ -65,7 +65,7 @@ Files and directories have a permission assigned differently to owner / group / 
 | **644** | (rw-r--r--) The owner may read and write a file, while all others may only read the file. A common setting for data files that everybody may read, but only the owner may change. |
 | **600** | (rw-------) The owner may read and write a file. All others have no rights. A common setting for data files that the owner wants to keep private. |
 
-\* Change the permission of a file "word.txt" that only the owner(you) can read and write, but all the others (including others in the group) can only read it. No execution is needed for all users.
+\* Change the permission of a file **"word.txt"** that only the owner(you) can read and write, but all the others (including others in the group) can only read it. No execution is needed for all users.
 
 ---
 
