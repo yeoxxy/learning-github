@@ -1,9 +1,9 @@
 # Lecture Note on Shell Commands
 *Using the markdown, I will Organize and review the shell command I learned in the 5th week of the Open-Source SW lecture.*
 
-#
+
 ----
-#
+
 \*By default\*
 **standard output** : screen
 **standard input** : from keyboard
@@ -18,9 +18,9 @@
 - **Pipeline** : feeds output of previous command to input of next command.
 
 *\* You can mix "<" and ">" together in a single line.*
-#
+
 ---
-#
+
 #### <Expansion>
 Special characters expand its meaning when given to shell commands.
 ```
@@ -38,7 +38,7 @@ $ echo ~User
 /home/User
 $
 ```
-#
+
 #### <Tip : Backslash>
 Backslash can be used to ignore line change in command ("enter"), to enter a long command in multiple lines.
 ![lab](https://github.com/yeoxxy/learning-github/blob/main/lab5.png?raw=true)
@@ -66,9 +66,9 @@ Files and directories have a permission assigned differently to owner / group / 
 | **600** | (rw-------) The owner may read and write a file. All others have no rights. A common setting for data files that the owner wants to keep private. |
 
 \* Change the permission of a file "word.txt" that only the owner(you) can read and write, but all the others (including others in the group) can only read it. No execution is needed for all users.
-#
+
 ---
-#
+
 #### <Superuser>
 - A superuser has all system administation authority.
 - Some commands need superuser's privilleges.
@@ -83,9 +83,9 @@ Password for me:
 root@linuxbox:~#
 ```
 - Type "exit" to get out of a superuser session.
-#
+
 ---
-#
+
 #### <Text Editors>
 - In Linux, you can choose CLI-based or GUI-based text editors.
 
@@ -96,9 +96,9 @@ root@linuxbox:~#
 | **nano** | **nano** is a free clone of the text editor supplied with the **pine** email program. **nano** is very easy to use but is very short on features compared to **vim** and **emacs**. **nano** is recommended for first-time users who need a command line editor. | command line |
 | **gedit** | **gedit** is the editor supplied with the GNOME desktop environment. gedit is easy to use and contains enough features to be a good beginners-level editor. | graphical |
 | **kwrite** | **kwrite** is the "advanced editor" supplied with KDE. It has syntax highlighting, a helpful feature for programmers and script writers. | graphical |
-#
+
 ---
-#
+
 #### <Tip: History>
 - Type "history" to see previous command history.
 - Or, save it to a text file.
