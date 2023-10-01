@@ -48,7 +48,7 @@ Linux is a multi-user system.
 Files and directories have a permission assigned differently to owner / group / others.
 
 #### \<Changing Permissions\>
-- "chmod" changes permissions.
+- **"chmod"** changes permissions.
 ```
 [me@linuxbox me]$ chmod 600 some_file
 ```
@@ -72,7 +72,7 @@ Files and directories have a permission assigned differently to owner / group / 
 #### \<Superuser\>
 - A superuser has all system administation authority.
 - Some commands need superuser's privilleges.
-- Put "sudo" before the command if you are a superuser.
+- Put **"sudo"** before the command if you are a superuser.
 ```
 [me@linuxbox me]$ sudo some_command
 Password for me:
@@ -82,7 +82,7 @@ Password for me:
 Password for me:
 root@linuxbox:~#
 ```
-- Type "exit" to get out of a superuser session.
+- Type **"exit"** to get out of a superuser session.
 
 ---
 
@@ -100,7 +100,7 @@ root@linuxbox:~#
 ---
 
 #### \<Tip: History\>
-- Type "history" to see previous command history.
+- Type **"history"** to see previous command history.
 - Or, save it to a text file.
 ```
 $ history > history_command.txt
