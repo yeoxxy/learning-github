@@ -17,7 +17,7 @@
 - using **"<"** : can redirect input from a file.
 - **Pipeline** : feeds output of previous command to input of next command.
 
-*\* You can mix "<" and ">" together in a single line.*
+*\* You can mix **"<"** and **">"** together in a single line.*
 
 ---
 
@@ -52,9 +52,9 @@ Files and directories have a permission assigned differently to owner / group / 
 ```
 [me@linuxbox me]$ chmod 600 some_file
 ```
-- 6 = 110 = rw- for owner
-0 = 000 = ---  for group
-0 = 000 = ---  for others
+- 6 = 110 = rw- for owner  
+ 0 = 000 = ---  for group  
+ 0 = 000 = ---  for others
 
 | Value | Meaning |
 | --- | --- |
