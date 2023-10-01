@@ -99,7 +99,7 @@ root@linuxbox:~#
 
 ---
 
-#### \<Tip: History\>
+#### \<Tip : History\>
 - Type **"history"** to see previous command history.
 - Or, save it to a text file.
 ```
