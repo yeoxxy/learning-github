@@ -4,8 +4,8 @@
 
 ----
 
-\*By default\*
-**standard output** : screen
+\*By default\*  
+**standard output** : screen  
 **standard input** : from keyboard
 
 #### \<output\>
