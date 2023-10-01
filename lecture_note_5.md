@@ -8,12 +8,12 @@
 **standard output** : screen
 **standard input** : from keyboard
 
-#### <output>
+#### \<output\>
 - using **">"** : can redirect output after a command (e.g., ls) to create and save the output in a file.
 - Command **"cat"** : displays the content of a text file.
 - Using **">>"** : appends output to an existing file (if it already exists), or create and write to a new file if it doesn't exist.
 
-#### <input>
+#### \<input\>
 - using **"<"** : can redirect input from a file.
 - **Pipeline** : feeds output of previous command to input of next command.
 
@@ -21,7 +21,7 @@
 
 ---
 
-#### <Expansion>
+#### \<Expansion\>
 Special characters expand its meaning when given to shell commands.
 ```
 $ echo print out the text
@@ -39,15 +39,15 @@ $ echo ~User
 $
 ```
 
-#### <Tip : Backslash>
+#### \<Tip : Backslash\>
 Backslash can be used to ignore line change in command ("enter"), to enter a long command in multiple lines.
 ![lab](https://github.com/yeoxxy/learning-github/blob/main/lab5.png?raw=true)
 
-#### <Permissions>
+#### \<Permissions\>
 Linux is a multi-user system.
 Files and directories have a permission assigned differently to owner / group / others.
 
-#### <Changing Permissions>
+#### \<Changing Permissions\>
 - "chmod" changes permissions.
 ```
 [me@linuxbox me]$ chmod 600 some_file
@@ -69,7 +69,7 @@ Files and directories have a permission assigned differently to owner / group / 
 
 ---
 
-#### <Superuser>
+#### \<Superuser\>
 - A superuser has all system administation authority.
 - Some commands need superuser's privilleges.
 - Put "sudo" before the command if you are a superuser.
@@ -86,7 +86,7 @@ root@linuxbox:~#
 
 ---
 
-#### <Text Editors>
+#### \<Text Editors\>
 - In Linux, you can choose CLI-based or GUI-based text editors.
 
 | Name | Description | Interface |
@@ -99,7 +99,7 @@ root@linuxbox:~#
 
 ---
 
-#### <Tip: History>
+#### \<Tip: History\>
 - Type "history" to see previous command history.
 - Or, save it to a text file.
 ```
