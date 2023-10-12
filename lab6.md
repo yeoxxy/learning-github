@@ -15,8 +15,8 @@ file: .git/gitconfig
 
 \* Each level overrides values in the previous level : system -> global -> local
 
-\* **This image is the default setting using the git config command.**
-![lab](https://raw.githubusercontent.com/yeoxxy/learning-github/46cb4150d28c7d6c7431d3d017623afd67978fcc/lab6.png)
+\* **This image is the default setting using the git config command.**  
+![lab](https://raw.githubusercontent.com/yeoxxy/learning-github/46cb4150d28c7d6c7431d3d017623afd67978fcc/lab6.png)  
 
 #### <Initializing a Repository in an Existing Directory>
 Enter the command 'git init' in the directory where we practiced until the last week.
